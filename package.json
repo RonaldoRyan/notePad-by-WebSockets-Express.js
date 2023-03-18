@@ -1,0 +1,25 @@
+{
+  "name": "node-socket-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/index.js --exec babel-node --ignore src/public",
+      "start": "node dist/index.js",
+      "build": "babel src -d dist && ncp src/public/index.html dist/public/index.html && ncp src/public/styles.css dist/public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.0",
+    "uuid": "^9.0.0"
+  }
+}

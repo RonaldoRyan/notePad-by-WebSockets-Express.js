@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(to right top, #0610ca, #005eed, #0082dd, #009eb7, #00b49a, #00b8a0, #00bca5, #00c0ab, #00b1d5, #009bff, #0077ff, #8e09f0);
+    height: 100vh;
+}
+
+
+
+
+.modal-content {
+    background-image: linear-gradient(to right top, #0610ca, #005eed, #0082dd, #009eb7, #00b49a, #00b8a0, #00bca5, #00c0ab, #00b1d5, #009bff, #0077ff, #8e09f0);
+    color: #fff;
+  }
+  
+  .modal-title {
+    color: #fff;
+  }
+  
+  .modal-body {
+    background-color: #000000;
+  }
+  
+  .form-control {
+    background-color: #fff;
+    color: #1b1b1b;
+    border-color: #1b1b1b;
+  }
+  
+  .btn-info {
+    background-color: #1b1b1b;
+    color: #fff;
+  }
+  
+  .btn-info:hover {
+    background-color: #393939;
+    color: #fff;
+  }
+  
+  .close {
+    color: #fff;
+  }
+  
+  .close:hover {
+    color: #eee;
+  }
+  
+  .modal-footer {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  
